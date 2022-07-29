@@ -6,6 +6,7 @@
               content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link href="style/theme.default.css" rel="stylesheet">
         <link rel="stylesheet" href="style/style.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
         <link href="https://cdn.jsdelivr.net/gh/rastikerdar/vazirmatn@v33.003/Vazirmatn-font-face.css" rel="stylesheet" type="text/css" />
@@ -139,47 +140,38 @@
                                         id="automobiles"
                                         name="category"
                                 />
-                                <label for="automobiles">Automobiles</label>
+                                <label for="automobiles">English EN</label>
+                            </div>
+
+
+                            <div class="option">
+                                <input type="radio" class="radio" id="RU" name="category" />
+                                <label for="RU">Русский RU</label>
                             </div>
 
                             <div class="option">
-                                <input type="radio" class="radio" id="film" name="category" />
-                                <label for="film">Film & Animation</label>
+                                <input type="radio" class="radio" id="VI" name="category" />
+                                <label for="VI">Tiếng Việt VI</label>
                             </div>
 
                             <div class="option">
-                                <input type="radio" class="radio" id="science" name="category" />
-                                <label for="science">Science & Technology</label>
+                                <input type="radio" class="radio" id="Türkçe TR" name="category" />
+                                <label for="Türkçe TR">Türkçe TR</label>
                             </div>
 
                             <div class="option">
-                                <input type="radio" class="radio" id="art" name="category" />
-                                <label for="art">Art</label>
+                                <input type="radio" class="radio" id="ES" name="category" />
+                                <label for="ES">Español ES</label>
                             </div>
 
                             <div class="option">
-                                <input type="radio" class="radio" id="music" name="category" />
-                                <label for="music">Music</label>
+                                <input type="radio" class="radio" id="BG" name="category" />
+                                <label for="BG">български BG</label>
                             </div>
 
                             <div class="option">
-                                <input type="radio" class="radio" id="travel" name="category" />
-                                <label for="travel">Travel & Events</label>
-                            </div>
-
-                            <div class="option">
-                                <input type="radio" class="radio" id="sports" name="category" />
-                                <label for="sports">Sports</label>
-                            </div>
-
-                            <div class="option">
-                                <input type="radio" class="radio" id="news" name="category" />
-                                <label for="news">News & Politics</label>
-                            </div>
-
-                            <div class="option">
-                                <input type="radio" class="radio" id="tutorials" name="category" />
-                                <label for="tutorials">Tutorials</label>
+                                <input type="radio" class="radio" id="CS" name="category" />
+                                <label for="CS">Čeština CS</label>
                             </div>
                         </div>
 
@@ -420,14 +412,14 @@
                     </tr>
                     <tr>
                         <th><i class="fa-solid fa-star-of-david"></i></th>
-                        <td scope="row">1</td>
+                        <td scope="row">2</td>
                         <td>
                             <div class="coin-logo-box">
                                 <img class="coin-logo" src="https://s2.coinmarketcap.com/static/img/coins/64x64/1027.png" alt="ETH logo">
                             </div>
                             Ethereum
                         </td>
-                        <td id="_price">$1,376.24</td>
+                        <td id="eth_price">$1,376.24</td>
                         <td>9.54%</td>
                         <td>12.74%</td>
                         <td>11.95%</td>
@@ -436,7 +428,7 @@
                     </tr>
                     <tr>
                         <th><i class="fa-solid fa-star-of-david"></i></th>
-                        <td scope="row">1</td>
+                        <td scope="row">3</td>
                         <td>
                             <div class="coin-logo-box">
                                 <img class="coin-logo" src="https://s2.coinmarketcap.com/static/img/coins/64x64/1839.png" alt="BNB logo">
@@ -452,7 +444,7 @@
                     </tr>
                     <tr>
                         <th><i class="fa-solid fa-star-of-david"></i></th>
-                        <td scope="row">1</td>
+                        <td scope="row">4</td>
                         <td>
                             <div class="coin-logo-box">
                                 <img src="https://s2.coinmarketcap.com/static/img/coins/64x64/132.png" height="32" width="32" alt="XCP">
@@ -468,7 +460,7 @@
                     </tr>
                     <tr>
                         <th><i class="fa-solid fa-star-of-david"></i></th>
-                        <td scope="row">1</td>
+                        <td scope="row">5</td>
                         <td>
                             <div class="coin-logo-box">
                                 <img src="https://s2.coinmarketcap.com/static/img/coins/64x64/1710.png" height="32" width="32" alt="VERI">
@@ -484,7 +476,7 @@
                     </tr>
                     <tr>
                         <th><i class="fa-solid fa-star-of-david"></i></th>
-                        <td scope="row">1</td>
+                        <td scope="row">6</td>
                         <td>
                             <div class="coin-logo-box">
                                 <img src="https://s2.coinmarketcap.com/static/img/coins/64x64/5225.png" height="32" width="32" alt="BAR">
@@ -582,6 +574,18 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
         <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        <script src="js/jquery.tablesorter.min.js"></script>
+        <script src="js/jquery.tablesorter.widgets.min.js"></script>
         <script src="js/js.js"></script>
+        <script>
+            $(function(){
+                $('table').tablesorter({
+                    widgets        : ['zebra', 'columns'],
+                    usNumberFormat : false,
+                    sortReset      : true,
+                    sortRestart    : true
+                });
+            });
+        </script>
     </body>
 </html>
